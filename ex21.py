@@ -28,5 +28,4 @@ print(f"Age: {age}, Height: {height}, Weight: {weight}, IQ: {iq}")
 print("Here is a puzzle.")
 
 what = add(age, subtract(height, multiply(weight, divide(iq,2))))
-
 print("That becomes:", what, "Can you do it by hand?")

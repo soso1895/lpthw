@@ -1,11 +1,11 @@
-# from sys import argv
+from sys import argv
 
-# script, filename = argv
+script, filename = argv
 
-# txt = open(filename)
+txt = open(filename)
 
-# print(f"Here's your file {filename}:")
-# print(txt.read())
+print(f"Here's your file {filename}:")
+print(txt.read())
 
 print("Type the filename again:")
 file_again = input(">")

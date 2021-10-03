@@ -11,11 +11,13 @@ print(y)
 print(f"I said: {x}")
 print(f"I also said: '{y}'")
 
+
+
 hilarious = False
 joke_evaluation = "Isn't that joke so funny?! {}"
 # joke_evaluation = f"Isn't that joke so funny?! {hilarious}"
 
-print(joke_evaluation.format(binary))
+print(joke_evaluation.format(hilarious))
 print(joke_evaluation)
 
 

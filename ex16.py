@@ -6,8 +6,8 @@ print(f"We're going to erase {filename}.")
 print("If you don't want that, hit CTRL-C (^C).")
 print("If you do want that,hit RETURN.")
 
-input("?")
-
+a = input("?")
+print(a)
 print("Opening the file ...")
 target = open(filename, 'w')
 
